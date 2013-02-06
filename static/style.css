@@ -36,7 +36,9 @@ p, h2{
 	font-size: 1.2em;
 	margin:1em 0;
 }
-
+small{
+	font-size:0.8em;
+	}
 header h1 {
 	font-size:4em;
 }
@@ -57,4 +59,7 @@ header h2 {
 
 .blogPost{
 	margin-bottom:2em;
+}
+.blogPost h2{
+margin:0;
 }
