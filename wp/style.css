@@ -44,7 +44,7 @@ footer {
 
 p, h2{
 	font-size: 1.2em;
-	margin-bottom:1em;
+	margin:1em 0;
 }
 
 header h1 {
@@ -52,7 +52,7 @@ header h1 {
 }
 header h2 {
 	font-size: 2em;
-	margin-bottom:0;
+	margin:0;
 }
 
 
@@ -63,4 +63,8 @@ header h2 {
 
 #main {
 	margin: 1em 30px;
+}
+
+.blogPost{
+	margin-bottom:2em;
 }
