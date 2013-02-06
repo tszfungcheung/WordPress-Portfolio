@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+	<title><?php bloginfo('name');?> | <?php bloginfo('description')?></title>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+       		<hgroup>
+			<h1><a href="<?php echo home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2><?php bloginfo( 'description' ); ?></h2>
+		</hgroup>
+      </header>
+      <?php
+	  $main_menu_top = array(
+							'theme_location' => 'main-menu',
+							'container' => 'nav',
+							'depth' => 1,
+						);
+						?>
+
+						<?php wp_nav_menu( $main_menu_top ); ?>
