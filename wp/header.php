@@ -1,6 +1,6 @@
 <!doctype html>
-<html>
-  <head lang="en">
+<html lang="en">
+  <head>
     <meta charset="utf-8">
 	<title><?php bloginfo('name');?> | <?php bloginfo('description')?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
